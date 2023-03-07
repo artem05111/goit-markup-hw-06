@@ -309,6 +309,28 @@
             </li>
           </ul>
         </div>
+        <div class="container-form-subscribe">
+          <p class="user-subscribe">Subscribe</p>
+          <form class="subscribe-form">
+            <input
+              type="email"
+              placeholder="E-mail"
+              name="user-email"
+              class="subscribe-form-input"
+              required
+              pattern="[^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$]"
+              title="user@mail.com"
+            />
+            <button type="submit" class="subscribe-form-submit">
+              Subscribe
+              <span class="subscribe-icon-wrapper">
+                <svg class="subscribe-form-submit-icon">
+                  <use href="./images/sprite.svg#icon-frame"></use>
+                </svg>
+              </span>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>
